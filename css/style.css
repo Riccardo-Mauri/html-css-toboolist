@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: #F6F8F9;
     
 }
 
@@ -24,21 +24,38 @@ header img, h1 {
 
 main{
     border: 3px solid black;
+
     border-radius: 10px;
     padding-left: 50px ;
     margin: auto;
     margin-top: 50px;
-    margin-left: ;
-   width: 70%;
-    background-color: red;
+    width: 80%;
+    background-color:red;
 }
 .funzione{
-    display: inline;
+    background-color: #47ADF1;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid black ;
+    display: inline-block;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+}
+.section{
+    background-color: ;
 }
 .linea-divisoria{
     display: block;
     display: none;
 
+}
+.tendine{
+    padding: 30px;
+}
+.categorie{
+    padding: 10px;
 }
 .circle{
     border: 1px solid black;
@@ -56,4 +73,39 @@ main{
 .cross{
     border-color: red;
     color: red;
+}
+.taggenerico{
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.tag-uno{
+    color: white;
+    background-color: #47ADF1;
+}
+.tag-due{
+    color: white;
+    background-color: #9C72E4
+}
+.tag-tre{
+    color: white;
+    background-color: #64C0A9;
+}
+.tag-quattro{
+    color: white;
+    background-color: #F29E33;
+}
+.tag-cinque{
+    color: white;
+    background-color: #D863A1;
+}
+.tag-sei{
+    color: white;
+    background-color: #B0C926;
 }
