@@ -1,15 +1,59 @@
-/
-    RESET 
-{
+ 
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightgray;
+    
 }
-/
 
-/
-    TOP
+header{
+    padding: 10px;
+    background-color: white;
+}
+
 h1{
     display: inline;
+    background-color: white;
+    
+    }
+
+header img, h1 {
+    vertical-align: middle;
 }
-/
+
+main{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 50px ;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: ;
+   width: 70%;
+    background-color: red;
+}
+.funzione{
+    display: inline;
+}
+.linea-divisoria{
+    display: block;
+    display: none;
+
+}
+.circle{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+.check{
+    border-color: green;
+    color: green;
+}
+.cross{
+    border-color: red;
+    color: red;
+}
