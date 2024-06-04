@@ -28,7 +28,7 @@ main{
     border-radius: 10px;
     padding-left: 50px ;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 80%;
     
 }
@@ -49,23 +49,24 @@ main{
     color: #C6CBD1;
     background-color: white;
 }
-.linea-divisoria{
-    display: block;
-    --display: none;
-    margin-bottom: 10px;
-    
 
-}
---.contenutoprincipale{
+.tastiprincipali{
+    width: 80%;
+    padding-left:10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
     background-color: white;
+    border: 0px solid;
+    border-radius: 10px;
 }
-.tendine{
-    padding: 30px;
+.tendine {
+   padding-top: 20px;
+    padding-bottom: 10px;
     background-color: white;
 }
 .categorie{
+    background-color: white;
     padding: 10px;
 }
 .circle{
